@@ -9,7 +9,9 @@ You can preview what your Markdown file will look like when styles are added by 
 1. Select the `Markdown Preview` submenu.
 1. Select `Toggle Preview` (You may also want to make a note of the shortcut keys listed so you can quickly open the preview in the future).
 
-***Q1. The above paragraph and this sentence use markdown in a few ways.  Give a brief description of anything unusual you notice.  Just enter your description on the lines below:***
+***Q1. The above paragraph and this sentence use markdown in a few ways.  Give a brief description of anything unusual you notice.  Just enter your description on the lines below:
+
+ I noticed links and different styles of font, italics, lists.***
 
 ### Lists
 
@@ -17,29 +19,69 @@ Create a numbered list of five of your favorite foods in-order from favorite to 
 
 For each item that has multiple ingredients, create a sub list of a few (2-5) of the ingredients.  Make one of the sub-lists numbered and the other should use bullet points. (It should look like an outline: The ingredients for item n are indented and immediately below item n, but before item n+1)
 
-***Q2. Create your list here:***
+***Q2. Create your list here:
+1. Burger
+  1. bun
+  1. lettuce
+  1. tomato
+  1. cheese
+  1. meat
+1. pizza
+  * dough
+  * sauce
+  * cheese
+1. fries
+1. steak
+1. candy
+
+
+
+***
 
 ### Headings
 
 Headings and sub-headings help separate the content of a document.
 
-***Q3. Add a new third tier heading to this document named "My Heading" here:***
+***Q3. Add a new third tier heading to this document named "My Heading" here:
+
+### My Heading
+***
 
 ### Code
 
 Markdown is often used to document code.  Consequently, it supports embedding code within documents.
 
-***Q4. Create a code block below and include a Java `for`-loop that prints numbers from 0 to 10. Be sure to indicate that it's Java, which will cause Java keywords to be highlighted (for example, depending on your configuration `for` may be purple in the preview window; `int` may be orange, etc.):***
+***Q4. Create a code block below and include a Java `for`-loop that prints numbers from 0 to 10. Be sure to indicate that it's Java, which will cause Java keywords to be highlighted (for example, depending on your configuration `for` may be purple in the preview window; `int` may be orange, etc.):
+
+```Java
+  new int ans = 0;
+    for(int i = 0; i<10:i++){
+        ans = ans+1;
+      }
+     System.out.println(ans);
+```
+***
 
 ## Part 2: What is IoT
 
 This class is about IoT.  [Postscapes](https://www.postscapes.com/internet-of-things-examples/) has a list of examples of IoT.  Pick any three categories (Body, Home City, Industry, etc.) and review any one example of each.
 
-***Q5.  Based on your reviews, create a table of the top four distinguishing features of IoT applications. One column of the table should have a brief name for the feature (1-4 words) and the second column should have an explanation:***
+***Q5.  Based on your reviews, create a table of the top four distinguishing features of IoT applications. One column of the table should have a brief name for the feature (1-4 words) and the second column should have an explanation:
+
+Baby Monitoring| Tile| City
+-----|--------|--------
+Being able to check on the baby using technology to monitor vitals is a great example of IOT used in the real world | Tile is another great example of IOT in the real world. I t has provided those who lose keys or wallets easily to have the ability to find them easily.| Having an app to provide locations of parking spaces makes life easier and less stressful on the driver.
+
+***
 
 Search for some additional IoT examples at other sites and find two examples that you find interesting.
 
-***Q6.  For each example: 1) provide a link to it, 2) provide a brief summary of it, and 3) explain how it corresponds to distinguishing features you identified above and/or or how you may want to revise your list of distinguishing features.  Use lists/sublists to format your answer to this question (A numbered list of 2 items, each of which as 3 sub-items):***
+***Q6.  For each example: 1) provide a link to it, 2) provide a brief summary of it, and 3) explain how it corresponds to distinguishing features you identified above and/or or how you may want to revise your list of distinguishing features.  Use lists/sublists to format your answer to this question (A numbered list of 2 items, each of which as 3 sub-items):
+
+  1. City
+    * https://www.streetline.com/parksight/
+    
+ ***
 
 ## Part 3: Comparing with Peers
 
